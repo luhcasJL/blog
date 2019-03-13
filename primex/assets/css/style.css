@@ -1,0 +1,128 @@
+body{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.navheader{
+  height: 66px;
+  position: absolute;
+}
+
+#logotipo{
+  height: 66px !important;
+  width: auto;
+}
+
+.navbar-nav{
+  width: 55%;
+}
+
+.nav-item{
+  position: relative;
+  top: -8px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px 10px 10px 10px;
+  height: 66px;
+}
+
+.nav-item:hover, .corrente{
+  color: #02918D;
+  background-color: #edecec;
+  border-bottom: 4px solid #02918D;
+}
+
+#banner{
+  /* serve para que o banner não ocupe o espaço / fique atrás da barra de navegação */
+  position: relative;
+  top: 66px;
+}
+
+.botao_esquerdo, .botao_direito{
+  color: #232222;
+  background-color: #d4d8d8;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #d4d8d8;
+  border-radius: 50%;
+  position: relative;
+  top: -410px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.botao_esquerdo{
+  left: 5%;
+}
+
+.botao_direito{
+  right: 5%;
+}
+
+.img_banner{
+  filter: contrast(70%);
+  filter: brightness(60%);
+}
+
+.conteudo_banner{
+  text-align: center;
+  position: relative;
+  top: -330px;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.campo_more_info{
+  text-align: center;
+  position: relative;
+  top: -200px;
+}
+
+.more_info{
+  height: 60px;
+  font-weight: lighter;
+  font-family: 'Marvel',sans-serif;
+  font-size: 1.5rem;
+  padding: 15px 51px 16px;
+  background-color: #f1f045 !important;
+  border-radius: 0 !important;
+}
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icone{
+  color: #02918D;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #02918D;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn_read_more{
+  background-color: #f1f045 !important;
+  border-radius: 0 !important;
+}
+
+#info{
+  margin-top: 80px;
+  text-align: center;
+}
+
+#info h2{
+  color: #129894;
+}
